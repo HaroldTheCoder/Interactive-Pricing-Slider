@@ -30,35 +30,32 @@ function slider() {
     switch (valPercent) {
 		case (valPercent = 0):
 			sliderValue.innerText = "10K Pageviews";
-			priceValue.innerText = "$8";
+			priceValue.innerText = "$8.00";
 			priceMonth.innerText = "/ month";
 			break;
 		case (valPercent = 25):
 			sliderValue.innerText = "50K Pageviews";
-			priceValue.innerText = "$12";
+			priceValue.innerText = "$12.00";
 			priceMonth.innerText = "/ month";
 			break;
 		case (valPercent = 50):
 			sliderValue.innerText = "100K Pageviews";
-			priceValue.innerText = "$16";
+			priceValue.innerText = "$16.00";
 			priceMonth.innerText = "/ month";
-            sliderValueMob.innerText = "100K Pageviews";
-			priceValueMob.innerText = "$16";
-			priceMonthMob.innerText = "/ month";
 			break;
 		case (valPercent = 75):
 			sliderValue.innerText = "500K Pageviews";
-			priceValue.innerText = "$24";
+			priceValue.innerText = "$24.00";
 			priceMonth.innerText = "/ month";
 			break;
 		case (valPercent = 100):
 			sliderValue.innerText = "1M Pageviews";
-			priceValue.innerText = "$36";
+			priceValue.innerText = "$36.00";
 			priceMonth.innerText = "/ month";
 			break;
 		default:
 			sliderValue.innerText = "10K Pageviews";
-			priceValue.innerText = "$8";
+			priceValue.innerText = "$8.00";
 			priceMonth.innerText = "/ month";
 			break;
 	}
@@ -68,7 +65,7 @@ function slider() {
 	switch (valPercentMob) {
 		case (valPercentMob = 0):
 			sliderValueMob.innerText = "10K Pageviews";
-			priceValueMob.innerText = "$8";
+			priceValueMob.innerText = "$8.00";
 			priceMonthMob.innerText = "/ month";
 			break;
 		case (valPercentMob = 25):
@@ -78,22 +75,22 @@ function slider() {
 			break;
 		case (valPercentMob = 50):
 			sliderValueMob.innerText = "100K Pageviews";
-			priceValueMob.innerText = "$16";
+			priceValueMob.innerText = "$16.00";
 			priceMonthMob.innerText = "/ month";
 			break;
 		case (valPercentMob = 75):
 			sliderValueMob.innerText = "500K Pageviews";
-			priceValueMob.innerText = "$24";
+			priceValueMob.innerText = "$24.00";
 			priceMonthMob.innerText = "/ month";
 			break;
 		case (valPercentMob = 100):
 			sliderValueMob.innerText = "1M Pageviews";
-			priceValueMob.innerText = "$36";
+			priceValueMob.innerText = "$36.00";
 			priceMonthMob.innerText = "/ month";
 			break;
 		default:
 			sliderValueMob.innerText = "10K Pageviews";
-			priceValueMob.innerText = "$8";
+			priceValueMob.innerText = "$8.00";
 			priceMonthMob.innerText = "/ month";
 			break;
 	}

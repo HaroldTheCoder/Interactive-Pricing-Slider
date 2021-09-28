@@ -26,7 +26,7 @@ h1, h2 {
 }
 h2 {
     display: inline;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 p, span, li {
     color: hsl(225, 20%, 60%);
@@ -77,6 +77,7 @@ p {
     justify-content: space-between;
     align-items: center;
     flex-flow: row;
+    padding-bottom: 1em;
 }
 .price-box:nth-child(2), .price-box:nth-child(3), .price-box:nth-child(4),
 .price-box:nth-child(5), .price-box:nth-child(6) {
@@ -167,7 +168,9 @@ p {
 .slider.round {
   border-radius: 4rem;
 }
-
+.slider-value {
+    font-size: 0.8em;
+}
 .slider.round:before {
   border-radius: 50%;
 }
