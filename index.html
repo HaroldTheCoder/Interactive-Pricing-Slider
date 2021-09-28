@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="main-container">
+      <header class="container-header">
+		  <img src="images/pattern-circles.svg" alt="" class="circles-pattern">
+          <h1>Simple, traffic-based pricing</h1>
+          <p class="intro-description">Sign-up for our 30-day trial. No credit card required. </p>
+   		</header>
+
+   		<div id="card">
+			<div class="card-top">
+				<div class="price-top">
+
+					<div class="price-box">
+						<div class="views-tag">
+							<p class="slider-value">10K pageviews</p>
+						</div>
+						<div class="price-tag">
+							<h2 class="price-value"></h2> <span class="price-month"></span>
+						</div>
+					</div>
+					<div class="meter-box">
+						<span class="bar"><span class="fill"></span></span>
+						<input type="range" id="my-slider" class="price-slider" value="0" min="0" step="25" max="100" oninput="slider()">
+					</div>
+
+					<!--PRICE BOX MOBILE-->
+					<div class="price-box-mobile">
+						<div class="views-tag-mobile">
+							<p class="slider-value-mobile"></p>
+						</div>
+						<div class="meter-box-mobile">
+							<span class="bar-mobile"><span class="fill-mobile"></span></span>
+							<input type="range" id="my-slider-mobile" class="price-slider-mobile" value="0" min="0" step="25" max="100" oninput="slider()">
+						</div>
+						<div class="price-tag-mobile">
+							<h2 class="price-value-mobile"></h2> <span class="price-month-mobile"></span>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="options-box">
+					<p>Monthly Billing</p>
+					<label class="switch">
+  						<input class="billing-checkbox" type="checkbox">
+  						<span class="slider round"></span>
+					</label>
+					<p>Yearly Billing</p> <span class="discount-span">-25% <span>discount</span></span>
+				</div>
+			</div>
+
+			<div class="card-bottom">
+				<ul class="perks-list">
+					<li>Unlimited websites</li>
+					<li>100% data ownership</li>
+					<li>Email reports</li>
+				</ul>
+				<button class="trial-button">Start my trial</button>
+			</div>
+   		</div>
+ </div>
+  
+
+  
+  
+  	<script src="main.js"></script>
+</body>
+</html>
