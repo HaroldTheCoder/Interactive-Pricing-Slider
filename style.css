@@ -238,6 +238,9 @@ input:checked + .slider:before {
 }
 
 @media screen and (max-width: 900px) {
+    h1 {
+        font-size: 1.50em;
+    }
     .container-header{
         padding-top: 3em;
         justify-content: baseline;
