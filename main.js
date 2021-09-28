@@ -1,13 +1,16 @@
 // Checkbox function
 const checkBox = document.querySelector(".billing-checkbox");
 const yearlySpan = document.querySelector(".discount-span");
-
+const span = document.querySelector(".discount-span-2");
 checkBox.addEventListener("click", () => {
 
 	if (checkBox.checked) {
 		yearlySpan.classList.toggle("active");
+        span.classList.toggle("active");
+
 	} else {
 		yearlySpan.classList.remove("active");
+        span.classList.remove("active");
 	}
 });
 
@@ -29,17 +32,11 @@ function slider() {
 			sliderValue.innerText = "10K Pageviews";
 			priceValue.innerText = "$8";
 			priceMonth.innerText = "/ month";
-            sliderValueMob.innerText = "10K Pageviews";
-			priceValueMob.innerText = "$8";
-			priceMonthMob.innerText = "/ month";
 			break;
 		case (valPercent = 25):
 			sliderValue.innerText = "50K Pageviews";
 			priceValue.innerText = "$12";
 			priceMonth.innerText = "/ month";
-            sliderValueMob.innerText = "50K Pageviews";
-			priceValueMob.innerText = "$12";
-			priceMonthMob.innerText = "/ month";
 			break;
 		case (valPercent = 50):
 			sliderValue.innerText = "100K Pageviews";
@@ -53,25 +50,16 @@ function slider() {
 			sliderValue.innerText = "500K Pageviews";
 			priceValue.innerText = "$24";
 			priceMonth.innerText = "/ month";
-            sliderValueMob.innerText = "500K Pageviews";
-			priceValueMob.innerText = "$24";
-			priceMonthMob.innerText = "/ month";
 			break;
 		case (valPercent = 100):
 			sliderValue.innerText = "1M Pageviews";
 			priceValue.innerText = "$36";
 			priceMonth.innerText = "/ month";
-            sliderValueMob.innerText = "1M Pageviews";
-			priceValueMob.innerText = "$36";
-			priceMonthMob.innerText = "/ month";
 			break;
 		default:
 			sliderValue.innerText = "10K Pageviews";
 			priceValue.innerText = "$8";
 			priceMonth.innerText = "/ month";
-            sliderValueMob.innerText = "10K Pageviews";
-			priceValueMob.innerText = "$8";
-			priceMonthMob.innerText = "/ month";
 			break;
 	}
      mySlider.style.background = `linear-gradient(to right, hsl(174, 86%, 45%) ${valPercent}%, hsl(224, 65%, 95%)${valPercent}%)`;
