@@ -17,7 +17,7 @@ body .container-header, #main-container, #card, .card-top {
     flex-flow: column;
 }
 h1 {
-    font-size: 1.50em;
+    font-size: 1.80em;
     font-weight: 900;
     z-index: 1;
 }
@@ -42,12 +42,12 @@ p {
 }
 .container-header{
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     padding-top: 5em;
     justify-content: baseline;
     align-items: center;
-    background: url(images/bg-pattern.svg) no-repeat left top/100%;
+    background: url(images/bg-pattern.svg) no-repeat left bottom/cover;
 }
 .circles-pattern {
     position: absolute;
@@ -57,7 +57,7 @@ p {
     position: absolute;
     top: 60%;
     left: 33%;
-    width: 35%;
+    width: 37%;
     margin: auto;
     border-radius: 0.50rem;
     background-color: hsl(0, 0%, 100%);
