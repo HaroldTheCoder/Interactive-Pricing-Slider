@@ -42,12 +42,12 @@ p {
 }
 .container-header{
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
-    padding-top: 5em;
+    padding-top: 7em;
     justify-content: baseline;
     align-items: center;
-    background: url(images/bg-pattern.svg) no-repeat left bottom/cover;
+    background: url(images/bg-pattern.svg) no-repeat left top/100%;
 }
 .circles-pattern {
     position: absolute;
