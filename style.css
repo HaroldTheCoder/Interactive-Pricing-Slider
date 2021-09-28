@@ -95,23 +95,7 @@ p {
     text-align: center;
     position: relative;
 }
-.bar, .bar-mobile {
-    position: absolute;
-    top: 42.90%;
-    left: 0.05%;
-    width: 99.50%;
-    height: 0.60em;
-    border-radius: 4rem;
-    background-color:  hsl(224, 65%, 95%);
-    z-index: 1;
-    overflow: hidden;
-}
-.fill {
-    display: block;
-    height: 100%;
-    background-color: hsl(174, 86%, 45%);
-    border-radius: 4rem;
-}
+
 .price-slider, .price-slider-mobile{
     position: relative;
     width: 100%;
@@ -254,7 +238,7 @@ input:checked + .slider:before {
 
 @media screen and (max-width: 900px) {
     .container-header{
-        padding-top: 5em;
+        padding-top: 3em;
         justify-content: baseline;
         align-items: center;
         background: url(images/bg-pattern.svg) no-repeat left top/300%;
@@ -266,7 +250,7 @@ input:checked + .slider:before {
         position: absolute;
         width: 90%;
         height: auto;
-        top: 25%;
+        top: 20%;
         left: auto;
         justify-content: flex-start;
         align-items:flex-start;
